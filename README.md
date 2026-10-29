@@ -1,10 +1,14 @@
 <p align="center">
-  <img src="assets/cover.jpg" alt="Cup Detector — computer vision for café cash desks" width="100%">
+  <img src="assets/cover.jpg" alt="AI Vision — computer vision at the cash desk" width="100%">
 </p>
 
-# Cup Detector
+# AI Vision — computer vision at the cash desk
 
-**Computer vision for café cash desks.** Cameras at the counter count every drink handed over to a customer, match each one with the receipts in the till and flag the drinks sold without a receipt. Piloted at a bakery-café chain.
+First deployed as Cup Detector at a bakery-café chain.
+
+**Cameras at the counter count every item handed over to a customer, match each one with the receipts in the till and flag the items sold without a receipt.** Everything runs on site; camera footage stays off the internet.
+
+Product page: [sci-fi.az/en/products/ai-vision](https://sci-fi.az/en/products/ai-vision)
 
 ## Who it's for
 
