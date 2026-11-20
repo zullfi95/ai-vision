@@ -21,9 +21,17 @@ Each one on its own looks like a mistake. That is why every mismatch gets a revi
 
 ## What a case review looks like
 
-![Case review message](assets/06-case-review-message.png)
+The owner's chat, as it works today (shown in Russian, example with changed data):
 
-Time → what the recording shows → what the receipt says → how it was paid → verdict. The interface is shown in Russian; the example uses changed data.
+1. **Alert with a frame** — "Drink deleted from the receipt, but the cup was handed out": receipt number, payment type, what was deleted and what was paid, when the cup left.
+2. **Clip** — the recording from the camera over the till, ready to play.
+3. **Review on request** — "review receipt 4127": what the footage shows, what was paid, and a one-line verdict.
+
+![Case review in the owner's chat](assets/06-case-review-message.png)
+
+With cash, the camera also reads the till screen: if the guest handed over 20 ₼ and got less change than the till shows, the difference left in the drawer is in the alert.
+
+![Cash change alert](assets/07-cash-change-message.png)
 
 ## Honest by design
 
