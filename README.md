@@ -17,7 +17,7 @@ Running as a pilot at one operating café in Baku. Product page: [sci-fi.az/en/p
 | Rung up less than given | one item | two cups in the guest's hands |
 | An extra cup written off at 0 ₼ | a "free" cup | a full drink in it |
 
-Each one on its own can be an honest mistake. That is why a mismatch triggers an alert and a check, not an accusation.
+Each one reaches the owner's phone with the clip — no footage to scroll through, no month-end audit to wait for.
 
 ## What a case review looks like
 
@@ -33,11 +33,6 @@ With cash, the camera also reads the till screen: if the guest handed over 20 �
 
 ![Cash change alert](assets/07-cash-change-message.png)
 
-## Honest by design
-
-- **Not every alert is theft.** In the pilot most "handed out without a receipt" cases turned out to be paid — the receipt had been matched to the neighbouring hand-out. Punishing on every alert means punishing innocent people.
-- **Money decides.** A card payment means the cashier could not have taken the money; with cash, the recording decides. "Theft" appears only where money and footage show it — otherwise the verdict is "not paid, check needed".
-- **The system shows, the owner decides.** No face recognition: it sees "a person at the counter", not who that is.
 
 ## Beyond the café counter
 
