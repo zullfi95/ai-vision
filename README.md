@@ -4,9 +4,9 @@
 
 # AI Vision — money that leaves past the till, caught on your own cameras
 
-**Every hand-out is checked against the receipt. Every mismatch reaches the owner in Telegram as a case review: the time, a short clip, the receipt and a one-line verdict.** No hours of footage to scroll through — the case is already laid out.
+**Every hand-out is checked against the receipt. Every mismatch reaches the owner in Telegram within minutes as an alert with a frame, the receipt and a short clip; ask "review receipt N" and get a one-line verdict.** No hours of footage to scroll through.
 
-Running in a pilot at a café chain in Baku. Product page: [sci-fi.az/en/products/ai-vision](https://sci-fi.az/en/products/ai-vision)
+Running as a pilot at one operating café in Baku. Product page: [sci-fi.az/en/products/ai-vision](https://sci-fi.az/en/products/ai-vision)
 
 ## The schemes it catches
 
@@ -17,7 +17,7 @@ Running in a pilot at a café chain in Baku. Product page: [sci-fi.az/en/product
 | Rung up less than given | one item | two cups in the guest's hands |
 | An extra cup written off at 0 ₼ | a "free" cup | a full drink in it |
 
-Each one on its own looks like a mistake. That is why every mismatch gets a review instead of an accusation.
+Each one on its own can be an honest mistake. That is why a mismatch triggers an alert and a check, not an accusation.
 
 ## What a case review looks like
 
@@ -41,7 +41,7 @@ With cash, the camera also reads the till screen: if the guest handed over 20 �
 
 ## Beyond the café counter
 
-The same check — what left versus what was recorded — works wherever goods or services leave against a receipt:
+We can test the same check — what left versus what was recorded — wherever goods or services leave against a receipt. Set up to order, tested on your footage before a pilot:
 
 <table>
 <tr>
@@ -61,8 +61,8 @@ Everything except the cash desk is set up to order: we look at your cameras, tes
 1. **Your cameras** — new hardware only if the angle doesn't fit.
 2. **Every hand-out counted** — the same object is tracked and counted once.
 3. **Checked against the till** — each hand-out is matched to a POS receipt (iiko).
-4. **Case review** — every mismatch becomes a case with clip, receipt and verdict.
-5. **Telegram** — the owner gets the review; the full shift is re-checked from the recording overnight.
+4. **Alert** — every mismatch goes to the owner in Telegram with a frame, the receipt and a clip, within minutes.
+5. **Review on request** — a one-line verdict when the owner asks; the full shift is re-checked from the recording overnight.
 
 ## Screens from the first deployment
 
