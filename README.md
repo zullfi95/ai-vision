@@ -1,88 +1,92 @@
-
 <p align="center">
-  <img src="assets/cover.jpg" alt="AI Vision — video analytics on your existing cameras" width="100%">
+  <img src="assets/cover.jpg" alt="AI Vision — loss prevention on your existing cameras" width="100%">
 </p>
 
-# AI Vision — video analytics on your existing cameras
+# AI Vision — money that leaves past the till, caught on your own cameras
 
-**The cameras already on your site show what matters: the time, the place and a short clip of every important moment — and an alert within the minute when something needs a person.** Everything runs on site; camera footage stays with you.
+**Every hand-out is checked against the receipt. Every mismatch reaches the owner in Telegram as a case review: the time, a short clip, the receipt and a one-line verdict.** No hours of footage to scroll through — the case is already laid out.
 
-One core, many scenarios: places, dwell time, presence, line crossing, repeated actions and camera health are shared building blocks. A new site is a new scenario configuration, not a new product. First deployed at the cash desk of a bakery-café chain.
+Running in a pilot at a café chain in Baku. Product page: [sci-fi.az/en/products/ai-vision](https://sci-fi.az/en/products/ai-vision)
 
-Product page: [sci-fi.az/en/products/ai-vision](https://sci-fi.az/en/products/ai-vision)
+## The schemes it catches
 
-## Directions
+| Scheme | What the till shows | What the camera shows |
+|---|---|---|
+| Handed out, no receipt | nothing | a drink or item leaving the counter |
+| Item deleted from the order, goods given anyway | a smaller receipt | the full order going to the guest |
+| Rung up less than given | one item | two cups in the guest's hands |
+| An extra cup written off at 0 ₼ | a "free" cup | a full drink in it |
+
+Each one on its own looks like a mistake. That is why every mismatch gets a review instead of an accusation.
+
+## What a case review looks like
+
+![Case review message](assets/06-case-review-message.png)
+
+Time → what the recording shows → what the receipt says → how it was paid → verdict. The interface is shown in Russian; the example uses changed data.
+
+## Honest by design
+
+- **Not every alert is theft.** In the pilot most "handed out without a receipt" cases turned out to be paid — the receipt had been matched to the neighbouring hand-out. Punishing on every alert means punishing innocent people.
+- **Money decides.** A card payment means the cashier could not have taken the money; with cash, the recording decides. "Theft" appears only where money and footage show it — otherwise the verdict is "not paid, check needed".
+- **The system shows, the owner decides.** No face recognition: it sees "a person at the counter", not who that is.
+
+## Beyond the café counter
+
+The same check — what left versus what was recorded — works wherever goods or services leave against a receipt:
 
 <table>
 <tr>
-<td width="50%"><img src="assets/directions/cash.jpg" alt="Café counter"><br><b>Cash and till</b> · <i>pilot</i><br>Hand-outs without a receipt, incorrect change, items deleted after hand-out.</td>
-<td width="50%"><img src="assets/directions/warehouse.jpg" alt="Warehouse"><br><b>Warehouses</b><br>Receiving and dispatch by fact, pallet and box counts, a forklift in a pedestrian zone.</td>
+<td width="50%"><img src="assets/directions/cash.jpg" alt="Café counter"><br><b>Cash desks</b> · <i>pilot</i><br>Hand-outs without a receipt, items deleted after hand-out, less rung up than given.</td>
+<td width="50%"><img src="assets/directions/carwash.jpg" alt="Car wash bay"><br><b>Car washes</b><br>Cars in the bay against receipts — 46 cars, 41 receipts is a question for the evening.</td>
 </tr>
 <tr>
-<td><img src="assets/directions/staff.jpg" alt="Kitchen staff"><br><b>Staff actions</b><br>Post staffed, order of operations, workwear and protective gear, idle time.</td>
-<td><img src="assets/directions/training.jpg" alt="Gym"><br><b>Training</b><br>Rep counts, pace and how each exercise is performed.</td>
-</tr>
-<tr>
-<td><img src="assets/directions/alert.jpg" alt="Business-centre lobby"><br><b>Emergencies</b><br>A person falling, a fight, smoke and fire, someone in a danger zone.</td>
-<td><img src="assets/directions/factory.jpg" alt="Factory line"><br><b>Factories</b><br>Output and rejects without sensors on the line, line stoppages, people at dangerous machinery.</td>
-</tr>
-<tr>
-<td><img src="assets/directions/oilgas.jpg" alt="Oil and gas site"><br><b>Oil and gas</b><br>People in danger zones, outsiders on the perimeter, vehicle log, dispatch checked against waybills.</td>
-<td><img src="assets/directions/agro.jpg" alt="Cow barn"><br><b>Agriculture</b><br>Herd counted out to pasture and back, time at feeders and troughs, storage and machinery at night.</td>
-</tr>
-<tr>
-<td><img src="assets/directions/restaurant.jpg" alt="Restaurant dining room"><br><b>Restaurants and cafés</b><br>Guests waiting for a waiter, table turnover, tables waiting to be cleared, busy hours.</td>
-<td><img src="assets/directions/hotel.jpg" alt="Hotel lobby"><br><b>Hotels</b><br>Reception left unattended, free parking spaces, housekeeping time per room, breakfast load. No cameras in rooms.</td>
-</tr>
-<tr>
-<td><img src="assets/directions/retail.jpg" alt="Supermarket till"><br><b>Retail</b><br>Open a second till when the queue grows, footfall against receipts, empty shelves.</td>
-<td><img src="assets/directions/carwash.jpg" alt="Car wash bay"><br><b>Car washes and service</b><br>Busy and free bays, time per car, cars against receipts, cars waiting at the gate.</td>
+<td><img src="assets/directions/retail.jpg" alt="Supermarket till"><br><b>Retail</b><br>Goods leaving the till against receipts, voids and returns at the counter.</td>
+<td><img src="assets/directions/warehouse.jpg" alt="Warehouse"><br><b>Warehouses</b><br>Pallets and boxes dispatched against the waybill.</td>
 </tr>
 </table>
 
-Everything except the cash desk is set up to order: we look at your cameras, test on your footage and agree the moments that matter before a pilot.
+Everything except the cash desk is set up to order: we look at your cameras, test on your footage and agree the cases that matter before a pilot. The same core also covers staff posts, queues, safety zones and other scenarios on request.
 
 ## How it works
 
-1. **Camera** — your cameras; new hardware only if the angle doesn't fit.
-2. **What matters** — the camera spots a drink, a person, a vehicle or smoke.
-3. **No duplicates** — the same object is tracked and counted once.
-4. **Check** — place, time and order of actions decide whether a moment matters.
-5. **Message** — time, place and a short clip; important moments reach a phone.
+1. **Your cameras** — new hardware only if the angle doesn't fit.
+2. **Every hand-out counted** — the same object is tracked and counted once.
+3. **Checked against the till** — each hand-out is matched to a POS receipt (iiko).
+4. **Case review** — every mismatch becomes a case with clip, receipt and verdict.
+5. **Telegram** — the owner gets the review; the full shift is re-checked from the recording overnight.
 
-## First deployment: the cash desk
+## Screens from the first deployment
 
-Running as Cup Detector at a bakery-café chain: cameras above the hand-out zone count every drink, match each one with the POS receipts, re-check the shift overnight from a second recording and give the owner a review page for every mismatch.
-
-All screenshots use demo data for a fictitious café; camera frames are synthetic images without people. The interface is shown in Russian.
-
-**Reconciliation** — what the camera counted, what the till confirmed, what the recording re-check confirmed, and what is left for a human to review.
-
-![Reconciliation](assets/01-reconciliation-overview.png)
+All screenshots use demo data for a fictitious café; camera frames are synthetic images without people.
 
 **Discrepancy review** — a cup handed out without a receipt: verdict frame, receipt lookup and resolution.
 
 ![Discrepancy review](assets/02-discrepancy-review.png)
 
-**Owner dashboard** — today's hand-outs, second-angle confirmation rate, audit gaps, system health and the daily digest.
+**Reconciliation** — what the camera counted, what the till confirmed, what the overnight re-check confirmed, and what is left for a human to review.
 
-![Owner dashboard](assets/03-owner-dashboard.png)
-
-**Live counter** — edge camera stream with tracked cups inside the counting zone, plus device telemetry.
-
-![Live counter](assets/04-live-counter.png)
+![Reconciliation](assets/01-reconciliation-overview.png)
 
 **POS vs camera by hour** — shift balance, receipt-to-hand-out delay and independent audit windows.
 
 ![POS vs camera](assets/05-pos-vs-camera.png)
 
-## Privacy
+**Owner dashboard** — today's hand-outs, second-angle confirmation, audit gaps, system health and the daily digest.
 
-Video stays on your site. Only people you approve see the short clips; full recordings never leave your premises.
+![Owner dashboard](assets/03-owner-dashboard.png)
+
+**Live counter** — camera stream with tracked cups inside the counting zone.
+
+![Live counter](assets/04-live-counter.png)
+
+## Video and privacy
+
+We process the video ourselves, on our own server in Baku — no third-party clouds or recognition services, no face recognition. Clips are seen only by the people the owner chooses. If video must not leave the premises at all, we install the processing node on site and only the cases go out.
 
 ## Stack
 
-Python · object detection (ONNX) and multi-object tracking · scenarios as configuration · OpenCV · FastAPI · React · PostgreSQL · edge accelerators (Hailo-8) · POS integration (iiko)
+Python · object detection (ONNX) and multi-object tracking · scenarios as configuration · OpenCV · FastAPI · React · PostgreSQL · edge accelerators · POS integration (iiko) · Telegram
 
 ## Source code
 
@@ -90,4 +94,4 @@ Source code is private — demo on request.
 
 ## Contact
 
-Zulfi Aliyev · alliyev.zulfi95@gmail.com · [sci-fi.az](https://sci-fi.az) · [LinkedIn](https://www.linkedin.com/in/zulfi-aliyev/)
+Zulfi Aliyev · alliyev.zulfi95@gmail.com · [sci-fi.az](https://sci-fi.az) · [LinkedIn](https://www.linkedin.com/in/zulfi-aliyev/) · [Sci-Fi on LinkedIn](https://www.linkedin.com/company/sci-fi-az/)
